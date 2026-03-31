@@ -1,0 +1,31 @@
+Product,Category,Calories,Sugar,Fat,Protein,Sales,Profit,
+Chips,Snacks,536,35,34,7,1200,300,
+Chocolate,Snacks,546,48,31,5,1500,400,
+Milk,Dairy,60,5,3,3,800,200,
+Paneer,Dairy,265,3,20,18,600,250,
+Bread,Bakery,265,6,3,9,900,220,
+Cake,Bakery,350,30,15,6,700,300,
+Apple,Fruits,52,10,0,0,500,150,
+Banana,Fruits,96,12,0,1,650,180,
+Chicken,Meat,239,0,14,27,1100,350,
+Egg,Meat,155,1,11,13,950,270,
+Butter,Dairy,717,1,81,1,400,200,
+Rice,Grains,130,0,0,2,1000,210,
+,,,,,,,,
+Row Labels,Sum of Profit,,Row Labels,Sum of Sales,,,,
+Apple,150,,Bakery,1600,,,,
+Banana,180,,Dairy,1800,,,,
+Bread,220,,Fruits,1150,,Row Labels,Sum of Calories,Sum of Sales
+Butter,200,,Grains,1000,,Apple,52,500
+Cake,300,,Meat,2050,,Banana,96,650
+Chicken,350,,Snacks,2700,,Bread,265,900
+Chips,300,,Grand Total,10300,,Butter,717,400
+Chocolate,400,,,,,Cake,350,700
+Egg,270,,,,,Chicken,239,1100
+Milk,200,,,,,Chips,536,1200
+Paneer,250,,,,,Chocolate,546,1500
+Rice,210,,,,,Egg,155,950
+Grand Total,3030,,,,,Milk,60,800
+,,,,,,Paneer,265,600
+,,,,,,Rice,130,1000
+,,,,,,Grand Total,3411,10300
